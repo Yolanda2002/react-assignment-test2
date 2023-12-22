@@ -53,9 +53,9 @@ export default function SignIn() {
         sessionStorage.setItem('token',res.token);
         navigate("/");
       }
-      setShow(signType === 0 ? '登录成功' : '注册成功')
+      setShow(signType === 0 ? 'Login Successful' : 'Registration Successful')
     }).catch(err => {
-      setShow(signType === 0 ? '登录失败' : '注册失败')
+      setShow(signType === 0 ? 'Login Failure' : 'Registration Failure')
     })
   };
 

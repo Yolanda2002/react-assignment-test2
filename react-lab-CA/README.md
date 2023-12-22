@@ -156,12 +156,4 @@ I encountered a problem with different TMDB identifiers along the way, but solve
 
 Added box in detailed page.
 
-功能
-1.用户注册登录
-2.添加收藏，收藏列表，删除收藏
-交互
-1.点击收藏判断是否已登录，已登录则收藏成功，未登录重定向到登录页
-2.登录成功跳转首页
-3.删除收藏刷新收藏列表
-4.token保存在sessionStorage
-5.需要鉴权的接口使用utils/myFetch代替fetch请求
+
