@@ -135,13 +135,6 @@ The following outlines how I've connected the React app to our backend services 
 
 ## Independent learning 
 
-1. Using the @mui UI component library
-
-  Since I wanted to add a login screen, I looked into the mui component to write the login screen more beautifully. In order to improve the efficiency of front-end development and the aesthetics of the user interface, by using @mui, I was able to focus on the functional development of the application instead of spending a lot of time on the design and implementation of basic UI elements. In addition, I learned how to use @mui's theme system to customize the application's colors, typography, and layout to better fit the project's needs.
-
-2. Integrating Mongoose API
-  On the backend, I adopted Mongoose as our primary means of interacting with the MongoDB database. By using Mongoose, I was able to define our data model, such as users, movies, etc., in a more intuitive and structured way, and easily implement add, delete, check, and modify (CRUD) operations.
-
 + **Session Management with sessionStorage**: I used `sessionStorage` for storing authentication tokens. This web storage feature allows me to keep user session data for the duration of the page session, providing a more secure and user-friendly way to handle session tokens compared to traditional cookies.
 
 + **Client-Side Routing**: By leveraging React Router, I implemented client-side routing to manage navigation in our single-page application (SPA). This included learning how to handle protected routes and redirects based on user authentication status.
